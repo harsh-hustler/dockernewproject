@@ -22,8 +22,8 @@ services:
       replicas: 3
 
   recharge:
-    images: harshraj95340/payrecharge:latest
+    images: harshraj95340/recharge:latest
     ports:
-      - "83:80"
+      - "84:80"
     deploy:
       replicas: 3
