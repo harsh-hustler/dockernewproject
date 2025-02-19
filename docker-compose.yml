@@ -24,6 +24,6 @@ services:
   recharge:
     image: harshraj95340/recharge:latest
     ports:
-      - "84:80"
+      - "85:80"
     deploy:
       replicas: 3
